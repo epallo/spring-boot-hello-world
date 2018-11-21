@@ -1,0 +1,11 @@
+commit 197588595f3961405e17826ecf7c5c6c4626d733
+tree 8bce7955a7e409990a06ab8aa7ca3270f23d1664
+parent 3dd2d5170a1841441b6cd7bcac62104915041620
+author epallo <enricopalomeno@hotmail.com> 2018-11-21 13:04:30 +0000
+committer epallo <enricopalomeno@hotmail.com> 2018-11-21 13:04:30 +0000
+
+    test
+
+
+
+:100644 100644 43fb01365bc4ebcba8cf592eb62a8d04c7c6599f fb4550d9eca2ccccd56586c11e52b5af9dc99134 M	src/main/resources/static/index.html

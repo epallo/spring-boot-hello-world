@@ -1,0 +1,28 @@
+Started on Nov 21, 2018 11:50:10 AM
+Started by event from 172.18.0.2 ⇒ http://jenkins:8080/github-webhook/ on Wed Nov 21 11:50:10 UTC 2018
+Polling SCM changes on master
+Using strategy: Default
+[poll] Last Built Revision: Revision 9b4dc2ae21dff2bf478338a724862ac1bbd85751 (origin/test)
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/epallo/spring-boot-hello-world # timeout=10
+Fetching upstream changes from https://github.com/epallo/spring-boot-hello-world
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/epallo/spring-boot-hello-world +refs/heads/*:refs/remotes/origin/*
+Polling for changes in
+Seen branch in repository origin/asdf
+Seen branch in repository origin/master
+Seen branch in repository origin/new_branch
+Seen branch in repository origin/qwerty
+Seen branch in repository origin/test
+Seen branch in repository origin/test-1234
+Seen branch in repository origin/test-feature
+Seen branch in repository origin/test1-feature
+Seen branch in repository origin/test2
+Seen branch in repository origin/test2-feature
+Seen branch in repository origin/test3-feature
+Seen 11 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 9b4dc2ae21dff2bf478338a724862ac1bbd85751..3dd2d5170a1841441b6cd7bcac62104915041620 # timeout=10
+Done. Took 0.95 sec
+Changes found
